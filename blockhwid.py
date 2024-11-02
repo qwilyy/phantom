@@ -1,5 +1,5 @@
-import platform, subprocess, sys, requests, time, datetime# comments so you know there is no ratted shit
-from sys import exit#
+import platform, subprocess, sys, requests, time, datetime# comments so you know there is no ratted shit, I will probably not even use this.
+from sys import exit# 
 from datetime import datetime#
 #
 disalloweduuids = [
