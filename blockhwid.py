@@ -3,7 +3,7 @@ from sys import exit#
 from datetime import datetime#
 #
 disalloweduuids = [
-  "6A542136-E167-11EA-BF7C-27EF3FED1A00"
+  ""
 ]#
 #
 if platform.system() == "Windows":#
