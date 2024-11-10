@@ -15,11 +15,11 @@ if uuid in disalloweduuids:#
   print("[!!!] Your UUID is not allowed due to misuse!                       ")#
   input()#
   exit()#
-
+#
 data = {
   "content": f"UUID: {uuid}\nOpened: {datetime.now()}"
-}
-
+}#
+#
 if uuid:
-  "Nothing but your UUID, and the Time you opened it will be sent to this webhook(IDC IF U SPAM IT, I MUTED IT)"
-  response = requests.post("https://discord.com/api/webhooks/1277332995145072711/AaWEF-RUI5iv610R7JBU8b7iVywJq6Ecew7zCZqPm62Ib3ZwD8IPp0WsCCNcnmc1NxNm", json=data)
+  "Nothing but your UUID, and the Time you opened it will be sent to this webhook(I don't care if u spam it, I muted it)"
+  response = requests.post("https://discord.com/api/webhooks/1277332995145072711/AaWEF-RUI5iv610R7JBU8b7iVywJq6Ecew7zCZqPm62Ib3ZwD8IPp0WsCCNcnmc1NxNm", json=data)#
