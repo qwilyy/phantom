@@ -16,7 +16,7 @@ if platform.system() == "Windows":#
 elif platform.system() == "Linux":#
     uuid = subprocess.check_output('cat /sys/class/dmi/id/product_uuid', shell=True).decode().strip()#
 #
-uuid = f"INFERNO.{uuid}"#
+uuid = f"{uuid}"#
 #
 if uuid in disalloweduuids:#
     print("[!] Your UUID is not allowed due to misuse!")#
