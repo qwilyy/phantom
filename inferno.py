@@ -28,7 +28,7 @@ data = {#
         {#
             "title": "UUID Check",#
             "description": f"UUID: {uuid}\nOpened: {datetime.now()}",#
-            "color": 0x7289DA#
+            "color": 0xFC2803#
         }#
     ]#
 }#
