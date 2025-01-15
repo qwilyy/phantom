@@ -8,7 +8,7 @@ from sys import exit#
 
 disalloweduuids = [""]
 
-leaveruuids = ["63A51763-A475-11E9-8102-9C5A446DAF83", "78524D80-B83F-11DC-94A1-14DAE96F2E4"]
+leaveruuids = ["63A51763-A475-11E9-8102-9C5A446DAF83", "78524D80-B83F-11DC-94A1-14DAE96F2E4", "87DEC3A-AFEC-B417-A6D2-D8U43AE69AAB1"]
 
 if platform.system() == "Windows":
     uuid = subprocess.check_output("wmic csproduct get uuid").decode().split('\n')[1].strip()
